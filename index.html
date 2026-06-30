@@ -615,6 +615,35 @@
       line-height: 1.65;
     }
 
+    /* ─── CUSTOM REQUIREMENTS & INSTALLATION CARDS ─── */
+    .custom-spec-box {
+      background: var(--surface);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .custom-spec-recommended {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: inset 0 0 15px rgba(255,59,31,0.05);
+    }
+    .step-card {
+      background: var(--surface);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      flex: 1;
+      min-width: 220px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
     /* ─── CTA SECTION ─── */
     .cta-section {
       padding: 3rem 0 6rem;
@@ -945,6 +974,101 @@
             <div class="feat-icon-wrap"><i class="fa-solid fa-memory"></i></div>
             <div class="feat-title">Smart RAM Cleaner</div>
             <p class="feat-desc">Clears standby cache to prevent mid-game frame drops.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── 1. NEW: YOUTUBE VIDEO SECTION ─── -->
+<div class="section-divider"></div>
+<section style="padding: 3rem 0; text-align: center;">
+  <div class="section-header">
+    <div class="section-label">Video Guide</div>
+    <h2 class="section-title">How It Works & Setup Tutorial</h2>
+    <p class="section-desc">
+      පැක් එක දාන්න කලින් මේ වීඩියෝ එක සම්පූර්ණයෙන් බලන්න. Watch the gameplay proof and installation guide below.
+    </p>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 40px var(--glow-red);">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+      
+      <!-- ඔයාගේ වීඩියෝ ID එක (EWgUzznyRFk) ලින්ක් එකට ඇතුළත් කරලා තියෙන්නේ -->
+      <iframe src="https://www.youtube.com/embed/EWgUzznyRFk?origin=https://ru.zdevs.za" 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+
+    </div>
+  </div>
+</section>
+
+
+      <!-- ─── 2. UPDATED: PC REQUIREMENTS SECTION ─── -->
+<div class="section-divider"></div>
+<section style="padding: 3rem 0;">
+  <div class="section-header" style="text-align: center;">
+    <div class="section-label">System Specs</div>
+    <h2 class="section-title">Realistic PC Requirements</h2>
+    <p class="section-desc">ග්‍රැෆික් කාඩ් එකක් නැතත් 8GB RAM එකක් තියෙනවා නම් මේ පැක් එකෙන් උපරිම FPS ගන්න පුළුවන්!</p>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto;">
+    
+    <!-- Realistic Minimum Specs -->
+    <div class="custom-spec-box">
+      <h3 style="font-family: 'Rajdhani', sans-serif; color: var(--text-muted); font-size: 1.3rem; margin-bottom: 1rem; text-transform: uppercase;">
+        <i class="fa-solid fa-circle-minus" style="color: var(--orange); margin-right: 0.5rem;"></i> Minimum Specs
+      </h3>
+      <ul style="list-style: none; padding: 0; line-height: 2; font-size: 0.9rem; color: var(--text-muted);">
+        <li><strong style="color: #fff;">CPU:</strong> Intel Core i3 3rd Gen / AMD</li>
+        <li><strong style="color: #fff;">RAM:</strong> 4GB Memory (Low-End Config)</li>
+        <li><strong style="color: #fff;">OS:</strong> Windows 10 (64-bit Lite)</li>
+        <li><strong style="color: #fff;">Graphics:</strong> Intel HD Graphics 4000</li>
+        <li><strong style="color: #fff;">FPS Target:</strong> 30 - 90 FPS</li>
+      </ul>
+    </div>
+
+    <!-- Realistic Recommended Specs (Updated with i5 4th Gen) -->
+    <div class="custom-spec-recommended">
+      <h3 style="font-family: 'Rajdhani', sans-serif; color: var(--orange); font-size: 1.3rem; margin-bottom: 1rem; text-transform: uppercase;">
+        <i class="fa-solid fa-circle-check" style="color: #22dd66; margin-right: 0.5rem;"></i> Recommended Specs
+      </h3>
+      <ul style="list-style: none; padding: 0; line-height: 2; font-size: 0.9rem; color: var(--text-primary);">
+        <li><strong style="color: var(--orange);">CPU:</strong> Intel Core i3 / i5 4th Gen or Higher</li>
+        <li><strong style="color: var(--orange);">RAM:</strong> 8GB RAM (Best Performance)</li>
+        <li><strong style="color: var(--orange);">OS:</strong> Windows 10 / 11 (Optimized)</li>
+        <li><strong style="color: var(--orange);">Graphics:</strong> Intel HD 4400 / 4600 or Dedicated VGA</li>
+        <li><strong style="color: var(--orange);">FPS Target:</strong> 90 - 120+ Cheesy FPS</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+      <!-- ─── 3. NEW: HOW TO EXTRACT & RUN ─── -->
+      <div class="section-divider"></div>
+      <section style="padding: 3rem 0; text-align: center;">
+        <div class="section-header">
+          <div class="section-label">Installation</div>
+          <h2 class="section-title">How to Install & Run</h2>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; max-width: 1000px; margin: 0 auto;">
+          <div class="step-card">
+            <div style="font-size: 1.5rem; color: var(--orange); font-weight: bold; font-family: 'Rajdhani', sans-serif; margin-bottom: 0.5rem;">01</div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Download the Premium ZIP pack from the button below.</p>
+          </div>
+          <div class="step-card">
+            <div style="font-size: 1.5rem; color: var(--orange); font-weight: bold; font-family: 'Rajdhani', sans-serif; margin-bottom: 0.5rem;">02</div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Extract the folder using <strong>WinRAR</strong> or 7-Zip.</p>
+          </div>
+          <div class="step-card">
+            <div style="font-size: 1.5rem; color: var(--orange); font-weight: bold; font-family: 'Rajdhani', sans-serif; margin-bottom: 0.5rem;">03</div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);"><strong>Watch the full video tutorial </strong>above to correctly apply the optimization</p>
+          </div>
+          <div class="step-card">
+            <div style="font-size: 1.5rem; color: #22dd66; font-weight: bold; font-family: 'Rajdhani', sans-serif; margin-bottom: 0.5rem;">04</div>
+            <p style="font-size: 0.85rem; color: var(--text-primary);">Restart your PC and experience Zero Lag!</p>
           </div>
         </div>
       </section>
